@@ -1,0 +1,38 @@
+div.code_67, div.code_50, div.code_33 {
+  float: left;
+  font-size: smaller;
+  margin: 5px;
+}
+
+div.code_67 {
+  width: 66%;
+}
+
+div.code_50 {
+  width: 49%;
+}
+
+div.code_33 {
+  width: 32%;
+}
+
+div.pleft3 {
+  padding-left: 3em;
+}
+
+textarea.snippet {
+  width: 100%;
+  height: 120px;
+}
+
+p.medium, ul.medium > li {
+  font-size: 24px;
+}
+
+p.small, ul.small > li {
+  font-size: 18px;
+}
+
+.aleft {
+    text-align: left;
+}

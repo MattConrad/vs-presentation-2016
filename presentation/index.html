@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Visual Studio 101 and Tips and Tricks</title>
+
+    <meta name="description" content="Visual Studio 101 and Tips and Tricks">
+    <meta name="author" content="Visual Studio 101 and Tips and Tricks">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="lib/reveal.js/css/reveal.min.css">
+    <link rel="stylesheet" href="lib/reveal.js/css/theme/beige.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/reveal.js/lib/css/zenburn.css">
+
+    <link rel="stylesheet" href="css/devict.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+      document.write( '<link rel="stylesheet" href="lib/reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="reveal">
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <!-- A markdown document can provide part of or the the entire presentation -->
+        <!-- With this setup three blank links separate slides. Two blanks separate nested "vertical" slides -->
+        
+        <section data-markdown>
+            <script type="text/template">
+# Visual Studio 101 and Tips and Tricks
+presented by Matt Conrad
+
+![DevICT](./img/devict-logo.png)
+            </script>
+        </section>
+
+        <section>
+            <p>Visual Studio 101: What is Visual Studio Anyway?</p>
+            <br />
+            <p>Visual Studio is an IDE used to develop applications in MS languages like:
+            <ul>
+                <li>C#</li>
+                <li>VB.NET</li>
+                <li>Visual C++</li>
+            </ul>
+            <br />
+            <br />
+            <p class="small">(Occasionally also used with non-Microsoft languages, too. See, for example, Python Tools for Visual Studio.)</p>
+        </section>
+
+        <section>
+            <div class="pleft3">
+                <p>What is an IDE Anyway?</p>
+                <br />
+                <p class="medium aleft">IDE stands for Integrated Development Environment.</p>
+                <p class="medium aleft">Most of writing an app means writing code, and a nice code editor is a big part of what an IDE provides.</p>
+                <p class="medium aleft">But IDEs also integrate extra tools into the editing application. IDEs build in features like:</p>
+                <ul class="medium">
+                    <li>file browser</li>
+                    <li>debugger</li>
+                    <li>language documentation</li>
+                    <li>build tools</li>
+                    <li>awareness of standard project structures</li>
+                    <li>code inspectors/analyzers</li>
+                </ul>
+                <p class="medium aleft">There are upsides and downsides to having lots of bells and whistles. Not everyone likes IDEs.</p>
+                <p class="medium aleft">But most people who do MS coding like Visual Studio. It is a very good IDE.</p>
+                <br />
+                <p class="small">(One little thing to note. <strong>Visual Studio</strong>, and <strong>Visual Studio Code</strong>, are two <em>different</em> IDEs.<br />Tonight we are talking about Visual Studio and <em>not</em> Visual Studio Code. Don't be confused.)</p>
+            </div>
+        </section>
+
+        <section>
+            <p>Getting Visual Studio</p>
+            <br />
+            <p class="medium">Happily, Visual Studio Community is now a free download from Microsoft.</p>
+            <br />
+            <p class="small">(Visual Studio Community, unlike earlier free versions of Visual Studio, is a full featured package and is good enough for most use cases.)</p>
+            <br />
+            <p class="medium">You can download Visual Studio Community 2015 at <a href="https://www.visualstudio.com/vs/community/">https://www.visualstudio.com/vs/community/</a>.</p>
+            <br />
+            <p class="medium">The version of Visual Studio used in the examples tonight is Visual Studio Community 2015.</p>
+        </section>
+
+        <section>
+            <p>Lets Do Something With Visual Studio</p>
+            <br />
+            <p class="medium">Our examples tonight will use the completed Music Store application.</p>
+            <p class="small">(What is a Solution? A Solution is a Visual Studio container that holds related Projects.)</p>
+            <p class="small">(What is a Project? A Project is a set of code files that create an application or compiled code library.)</p>
+            <p class="small">(Often, and especially when you're first starting out, a Solution may consist of only a single project.)</p>
+            <p class="medium">In an example of terminology confusion that is perfectly typical for Microsoft, we start a new Solution by clicking on the Visual Studio link labeled New Project.</p>
+            <p class="medium"></p>
+        </section>
+
+<!--
+        <section>
+            <p>Lets Do Something With Visual Studio</p>
+            <br />
+            <p class="medium">Many of our examples tonight will use the completed Music Store application, but let's look at creating a brand new Solution first.</p>
+            <p class="small">(What is a Solution? A Solution is a Visual Studio container that holds related Projects.)</p>
+            <p class="small">(What is a Project? A Project is a set of code files that create an application or compiled code library.)</p>
+            <p class="small">(Often, and especially when you're first starting out, a Solution may consist of only a single project.)</p>
+            <p class="medium">In an example of terminology confusion that is perfectly typical for Microsoft, we start a new Solution by clicking on the Visual Studio link labeled New Project.</p>
+            <p class="medium"></p>
+        </section>
+-->
+
+
+        <section>
+            <h3>The End!</h3>
+            <br />
+            <small>
+              <p>You can contact me at <br /><strong>mattconrad@gmail.com</strong> or <strong>matt@wichitaprogrammer.com</strong>.</p>
+              <p>This presentation was written using the DevICT presentation template available at <br /><a href="https://github.com/devict/devict-presentation-template">https://github.com/devict/devict-presentation-template</a>. Thanks, Seth and Jacob!</p>
+            </small>
+        </section>
+
+
+      </div>
+    </div>
+
+    <script src="lib/reveal.js/lib/js/head.min.js"></script>
+    <script src="lib/reveal.js/js/reveal.min.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        //this is, unfortunately, important.
+        width: 1080,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'lib/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'lib/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'lib/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'lib/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'lib/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'lib/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
